@@ -166,7 +166,7 @@ def main():
         if edit_option =='Encode':
 
             if 'All' not in option:
-                encode_var = tab3_col1.muliselect('Select Features',option)
+                encode_var = tab3_col1.multiselect('Select Features',option)
             else:
                 encode_var = tab3_col1.multiselect('Select Features',cols,key = 'Cols')
 
